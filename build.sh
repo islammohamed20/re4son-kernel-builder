@@ -63,7 +63,7 @@ CURRENT_DATE=`date +%Y%m%d`
 NEW_VERSION="${VERSION}-${CURRENT_DATE}"
 
 # Directories
-KERNEL_BUILDER_DIR="/opt/re4son-kernel-builder"
+KERNEL_BUILDER_DIR="/opt/kernel-builder"
 REPO_ROOT="/opt/kernel-builder_repos/"
 MOD_DIR=`mktemp -d`
 PKG_TMP=`mktemp -d`
